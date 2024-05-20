@@ -4,15 +4,15 @@ const AppFilter = () => {
   return (
     <div className="button-group">
       <button className="btn btn-light" type="button">
-        All employees
+        Все сотрудники
       </button>
       <button className="btn btn-outline-light" type="button">
         {" "}
-        employees to upp
+        На повышение
       </button>
       <button className="btn btn-outline-light" type="button">
         {" "}
-        more then 1000$
+        З/П больше 1000$
       </button>
     </div>
   );
